@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+# Build artifacts
+/build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Editor & OS-specific files
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+*.log
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Generated files
+*.bin
+*.tmp
+*.lock
