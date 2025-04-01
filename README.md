@@ -88,6 +88,7 @@ Navigate to the `build` folder and execute any compiled binary:
 │   ├── ecdh_w_aes_example.cpp  # ECDH + AES hybrid example
 │   ├── ecdh_w_rsa_example.cpp  # ECDH + RSA example
 │   ├── kem_example.cpp    # KEM framework example
+|   ├── signature_example.cpp # Digital Signature example 
 ├── CMakeLists.txt         # CMake configuration
 ├── README.md              # This file
 ```

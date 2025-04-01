@@ -15,6 +15,7 @@ add_executable(ecdh_example src/ecdh_example.cpp)
 add_executable(ecdh_w_aes_example src/ecdh_w_aes_example.cpp)
 add_executable(ecdh_w_rsa_example src/ecdh_w_rsa_example.cpp)
 add_executable(kem_example src/kem_example.cpp)
+add_executable(signature_example src/signature_example.cpp)
 
 
 # Link OpenSSL libraries to your project
@@ -23,3 +24,4 @@ target_link_libraries(ecdh_example OpenSSL::Crypto)
 target_link_libraries(ecdh_w_aes_example OpenSSL::Crypto)
 target_link_libraries(ecdh_w_rsa_example OpenSSL::Crypto)
 target_link_libraries(kem_example OpenSSL::Crypto)
+target_link_libraries(signature_example OpenSSL::Crypto)
